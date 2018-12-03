@@ -44,6 +44,8 @@ see [Wikipedia](https://en.wikipedia.org/wiki/Roguelike)
 
  
 ## Team
+[Link to GitLab Repo](https://gitlab.com/origami99/RPG-OOP-Project)
+
 * Христо Гунов
 * Николай Тодоров
 * Александър Станчев
