@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Models.ConsoleLogger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConsoleLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Models.Coordinates" Collapsed="true">
+    <Position X="8.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAIAAAACAAAAMAAAABAAAAA=</HashCode>
+      <FileName>Coordinates.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Map" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQASBAAgGAQAAEggAABAAAAAAAQAAA=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Models.Position" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAgAAAAAIAAAACAAAAEAAAABAAAQA=</HashCode>
+      <FileName>Position.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Models.Symbol" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAACCAAQAggAAAAAA=</HashCode>
+      <FileName>Symbol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Text" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAAAAAAAAAAAAAAAAACCAAAAggAAAAAA=</HashCode>
+      <FileName>Text.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Models.Effects.AttributesEffect" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAIAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Effects\AttributesEffect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Models.Effects.EffectsOnUnit" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAAAAEAAAAAAAAAAACAAAAQgA=</HashCode>
+      <FileName>Effects\EffectsOnUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Items.Inventory" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAACAAgAQgA=</HashCode>
+      <FileName>Items\Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Tile.Abstract.DefaultTile" Collapsed="true">
+    <Position X="13" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACEAACABUAAAAEgAACAIAAAAMAAAADAhAAAA=</HashCode>
+      <FileName>Tile\Abstract\DefaultTile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Tile.FloorTile" Collapsed="true">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tile\FloorTile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Tile.SecretTile" Collapsed="true">
+    <Position X="13" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tile\SecretTile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Tile.WallTile" Collapsed="true">
+    <Position X="15.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tile\WallTile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Unit.AbstractUnit" Collapsed="true">
+    <Position X="8.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAICEAADAhAgAACAAA8AAAYWgQAGkgAIAAYACEgAAAA=</HashCode>
+      <FileName>Unit\AbstractUnit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Unit.Attributes" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABCAAAAAAAAABAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Unit\Attributes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Models.Unit.UnitPostion" Collapsed="true">
+    <Position X="8.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\UnitPostion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Models.Unit.Enemies.Animals.EnemyAnimal" Collapsed="true">
+    <Position X="3.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAIA=</HashCode>
+      <FileName>Unit\Enemies\Animals\EnemyAnimal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Unit.Enemies.Animals.EnemyDog" Collapsed="true">
+    <Position X="3.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Enemies\Animals\EnemyDog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Unit.Enemies.Enemy" Collapsed="true">
+    <Position X="6" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Unit\Enemies\Enemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Unit.Enemies.Monster.EnemyMonster" Collapsed="true">
+    <Position X="9.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Unit\Enemies\Monster\EnemyMonster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Unit.Enemies.Monster.EnemyOrc" Collapsed="true">
+    <Position X="8.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Enemies\Monster\EnemyOrc.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Unit.Enemies.Monster.EnemyZombie" Collapsed="true">
+    <Position X="10.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Enemies\Monster\EnemyZombie.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Unit.Player.Player" Collapsed="true">
+    <Position X="12.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAA=</HashCode>
+      <FileName>Unit\Player\Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Unit.Profession.AbstractProfession" Collapsed="true">
+    <Position X="5.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAIAQAAAQEAIAEAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Unit\Profession\AbstractProfession.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Models.Unit.Profession.Warrior" Collapsed="true">
+    <Position X="5.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Profession\Warrior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Models.Effects.Interfaces.IEffect" Collapsed="true">
+    <Position X="28" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Effects\Interfaces\IEffect.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Effects.Interfaces.IUnitEffect" Collapsed="true">
+    <Position X="1.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Effects\Interfaces\IUnitEffect.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Interfaces.ICoordinates" Collapsed="true">
+    <Position X="11.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Interfaces\ICordinates.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Interfaces.Ilogger" Collapsed="true">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Ilogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Interfaces.IMap" Collapsed="true">
+    <Position X="24.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAACAAAgEAQAAEgAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Interfaces\IMap.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Interfaces.IPosition" Collapsed="true">
+    <Position X="11.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Interfaces\IPosition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Interfaces.IText" Collapsed="true">
+    <Position X="28" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAggAAAAAA=</HashCode>
+      <FileName>Interfaces\IText.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Items.Interfaces.IItem" Collapsed="true">
+    <Position X="2.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Interfaces\IItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Tile.Interfaces.IActivatable" Collapsed="true">
+    <Position X="10.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tile\Interfaces\IActivatable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Tile.Interfaces.IContainsItem" Collapsed="true">
+    <Position X="26.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tile\Interfaces\IContainsItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Tile.Interfaces.IOccoupiable" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Tile\Interfaces\IOccoupiable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Tile.Interfaces.ISightBlocking" Collapsed="true">
+    <Position X="3.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tile\Interfaces\ISightBlocking.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Tile.Interfaces.ITile" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tile\Interfaces\ITile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Tile.Interfaces.IVisible" Collapsed="true">
+    <Position X="5.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Tile\Interfaces\IVisible.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Tile.Interfaces.IVisualise" Collapsed="true">
+    <Position X="8" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Tile\Interfaces\IVisualise.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Tile.Interfaces.IWalkable" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tile\Interfaces\IWalkable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Enemies.Animals.Interfaces.IEnemyAnimal" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Enemies\Animals\Interfaces\IEnemyAnimal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Enemies.Monster.Interfaces.IEnemyMonster" Collapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Enemies\Monster\Interfaces\IEnemyMonster.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Interfaces.Combat.IFigthable" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAADAAAAAAAAAAMAAAAAAQACggAAAAIACAAAAAA=</HashCode>
+      <FileName>Unit\Interfaces\Combat\IFigthable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Interfaces.IArmour" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Interfaces\IArmour.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Interfaces.IAttributable" Collapsed="true">
+    <Position X="12.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Interfaces\IAttributable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Interfaces.IAttributes" Collapsed="true">
+    <Position X="24.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABCAAAAAAAAABAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Unit\Interfaces\IAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Interfaces.IDescribable" Collapsed="true">
+    <Position X="14.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Interfaces\IDescribable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Interfaces.IEffectable" Collapsed="true">
+    <Position X="16.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Interfaces\IEffectable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Interfaces.IHealth" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Interfaces\IHealth.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Interfaces.ILocation" Collapsed="true">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Interfaces\ILocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Interfaces.IRegenrate" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Interfaces\IRegenrate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Interfaces.IUnit" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Unit\Interfaces\IUnit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Enemies.Interfaces.IEnemy" Collapsed="true">
+    <Position X="1.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Unit\Interfaces\IEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Interfaces.Movement.IMoves" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Unit\Interfaces\Movement\IMoves.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Player.IPlayer" Collapsed="true">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Unit\Player\IPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Player.IPlayerLevel" Collapsed="true">
+    <Position X="26.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAEAEAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Unit\Player\IPlayerLevel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Models.Unit.Profession.Interfaces.IProfession" Collapsed="true">
+    <Position X="0.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAQAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit\Profession\Interfaces\IProfession.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

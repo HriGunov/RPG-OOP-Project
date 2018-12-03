@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core.CombatManager" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAgAAAAAAAAgBAAAAAAAABAAAAAAAAAAAAAAAEAQA=</HashCode>
+      <FileName>Combat\CombatManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Engine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAADYAgIAAAAACAEAAAAACBAAAQEAAAQAEAAM=</HashCode>
+      <FileName>Engine\Engine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.Function" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEACAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Function.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.KeyHandler" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>KeyHandler\KeyHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Movement" Collapsed="true">
+    <Position X="17.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAARAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Movement\Movement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Startup" Collapsed="true">
+    <Position X="17.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAEAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Visualization" Collapsed="true">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAADAAAAQAIQAAAAAAAAAAAAAAAAAAAEoAAQAAAAA=</HashCode>
+      <FileName>Visualisation\Visualisation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Extension.UnitExtensions" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Extension\UnitExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.GetMap.ParseChar" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GetMap\ParseChar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.GetMap.ParseMapFromText" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAEEAABABIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GetMap\ParseMapFromText.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.Logger.DebugLogger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger\DebugLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.Windows.AttrubitesWindow" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAQgAAAAAAAABQQAAAQABAAA=</HashCode>
+      <FileName>Windows\AttrubitesWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Windows.BorderedWindow" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAAEAAAAAAAAAUAAAAAAEAAAAAAABAAAA=</HashCode>
+      <FileName>Windows\BorderedWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Windows.CombatStats" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAEAAAAAgCAAAAAAAAAICAAAAAAABAAAAAQAAAAA=</HashCode>
+      <FileName>Windows\CombatStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Windows.InventoryManager" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\InventoryWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Windows.LogWindow" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAgAAAAJACAAAAAAAAgAAAAAABAAAABAAAE=</HashCode>
+      <FileName>Windows\LogWindow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.Windows.PopUpWindow" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAEAAAAAAAAAAAAAAAAABAAAAAAAAQAAAA=</HashCode>
+      <FileName>Windows\PopUp\PopUpWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Windows.SelectablePopUpWindow" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\PopUp\SelectablePopUpWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Windows.StatsWindow" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAAAAAAAIAAAEAAAAAAAABAAAAAQBAAIA=</HashCode>
+      <FileName>Windows\StatsWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Windows.TextLineWindow" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAQAAgAAAAAA=</HashCode>
+      <FileName>Windows\TextLineWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Windows.Window" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBQACACARAAAC0QAQCAIAGAQAAAgAwAEAAAABABQAAA=</HashCode>
+      <FileName>Windows\Window.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Windows.WindowsManager" Collapsed="true">
+    <Position X="16" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwAAAAAEAAIAAAJCAAAAQAAAAEAQAAA=</HashCode>
+      <FileName>Windows\WindowsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Windows.PopUp.SelectableSymbols" Collapsed="true">
+    <Position X="16" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAABAAAAAABAAAAACAAAAAgAAAAIAAAACgAAAAI=</HashCode>
+      <FileName>Windows\PopUp\SelectableSymbols.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Core.Windows.Corner" Collapsed="true">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAYAA=</HashCode>
+      <FileName>Windows\Corner.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Core.Interfaces.IEngine" Collapsed="true">
+    <Position X="14.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interfaces\IEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.Command.IKeyListener" Collapsed="true">
+    <Position X="17.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Interfaces\IKeyListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.GetMap.Interfaces.IGetMap" Collapsed="true">
+    <Position X="16" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GetMap\Interfaces\IGetMap.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.Logger.ILogger" Collapsed="true">
+    <Position X="19.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger\Ilogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

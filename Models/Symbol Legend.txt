@@ -1,0 +1,71 @@
+﻿@ => Player
+· => Little enemy
+¤ => Spider
+$ => Money
+█ => Walls
+
+░▒▓ => Fade effect
+
+
+window v1 => 
+╔═══╗
+║   ║
+╚═══╝
+
+window v2 => 
+┌───┐ 
+│   │
+└───┘
+
+Ladder v1 =>
+╪═╪
+╪═╪
+╪═╪
+╪═╪
+
+Ladder v2 => 
+╫─╫
+╫─╫
+╫─╫
+
+Utilities:
+O
+X
+
+▀ & ▄
+▌
+▐
+
+Building Blocks Bundle => ─ ┼ ╪ ╖ ╗ ╘ ╙ ╚ ╛ ╜ ╝ ╞ ╟ ╠ ╡ ╢ ╣ ╤ ╥ ╦ ╧ ╨ ╩ ╪ ╫ ╬
+
+
+
+
+
+!!! FIRST WE NEED TO RESOLVE ENCODING PROBLEMS FOR ALL THE ARTS BELOW !!!
+
+Game Over => ┌∩┐(◣_◢)┌∩┐
+
+Meme => (ノಠ益ಠ)ノ彡
+
+Mega hero => (╯°□°)--︻╦╤─ - - -  &&  (⌐■_■)--︻╦╤─ - - -
+
+Trophies => ▂▃▅▇█▓▒░۩۞۩۩۞۩░▒▓█▇▅▃▂
+
+Chess! => ♚ ♛ ♜ ♝ ♞ ♟ ♔ ♕ ♖ ♗ ♘ ♙
+
+Stars => ⋆ ✢ ✣ ✤ ✥ ✦ ✧ ✩ ✪ ✫ ✬ ✭ ✮ ✯ ✰ ★
+
+Weather => ☼ ☀ ☁ ☂ ☃ ☄ ☾ ☽ ❄ ☇ ☈ ⊙ ☉ ℃ ℉ ° ❅ ✺ ϟ
+
+Geometrics => ▣ ■ □ ▢ ◯ ▲ ▶ ► ▼ ◆ ◢ ◣ ◤ ◥
+
+Very basic ASCII's => ☺ ☻ ♥ ♦ ♣ ♠ • ◘ ○
+
+Heart => ❤ ♥ ♡ (we need this!)
+
+Spike v1 => ❋
+
+Spike v2 => ✺
+
+A life! =>  -`ღ´-

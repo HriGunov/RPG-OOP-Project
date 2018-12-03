@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6B9460B-7452-44BE-AB36-8B5C26D508F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Models</RootNamespace>
+    <AssemblyName>Models</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenTK.Next.1.1.1612.8936\lib\net20\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="SunshineConsole, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <HintPath>..\packages\SunshineConsole.1.4.0\lib\NET40\SunshineConsole.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConsoleLogger.cs" />
+    <Compile Include="Effects\AttributesEffect.cs" />
+    <Compile Include="Effects\DafaultTimedEffect.cs" />
+    <Compile Include="Effects\EffectsOnUnit.cs" />
+    <Compile Include="Effects\Interfaces\IEffect.cs" />
+    <Compile Include="Effects\Interfaces\IUnitEffect.cs" />
+    <Compile Include="Effects\Interfaces\ITimedUnitEffect.cs" />
+    <Compile Include="Effects\NoEffect.cs" />
+    <Compile Include="Factories\EnemyFactory.cs" />
+    <Compile Include="Factories\Register.cs" />
+    <Compile Include="Factories\TileFactory.cs" />
+    <Compile Include="Interfaces\ICordinates.cs" />
+    <Compile Include="Interfaces\Ilogger.cs" />
+    <Compile Include="Interfaces\IMap.cs" />
+    <Compile Include="Interfaces\IPosition.cs" />
+    <Compile Include="Interfaces\IRegisterKey.cs" />
+    <Compile Include="Interfaces\IText.cs" />
+    <Compile Include="Interfaces\ITick.cs" />
+    <Compile Include="Items\Interfaces\IItem.cs" />
+    <Compile Include="Items\Inventory.cs" />
+    <Compile Include="Map.cs" />
+    <Compile Include="Position.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Symbol.cs" />
+    <Compile Include="Text.cs" />
+    <Compile Include="Tile\Abstract\DefaultTile.cs" />
+    <Compile Include="Tile\FloorTile.cs" />
+    <Compile Include="Tile\Interfaces\IActivatable.cs" />
+    <Compile Include="Tile\Interfaces\IContainsItem.cs" />
+    <Compile Include="Tile\Interfaces\IOccoupiable.cs" />
+    <Compile Include="Tile\Interfaces\ISightBlocking.cs" />
+    <Compile Include="Tile\Interfaces\ITile.cs" />
+    <Compile Include="Tile\Interfaces\IVisible.cs" />
+    <Compile Include="Tile\Interfaces\IVisualise.cs" />
+    <Compile Include="Tile\Interfaces\IWalkable.cs" />
+    <Compile Include="Tile\SecretTile.cs" />
+    <Compile Include="Tile\WallTile.cs" />
+    <Compile Include="Unit\AbstractUnit.cs" />
+    <Compile Include="Unit\Attributes.cs" />
+    <Compile Include="Unit\Combat\CombatStats.cs" />
+    <Compile Include="Unit\Combat\DefaultAttack.cs" />
+    <Compile Include="Unit\Combat\Interfaces\IAttack.cs" />
+    <Compile Include="Unit\Enemies\Animals\EnemyAnimal.cs" />
+    <Compile Include="Unit\Enemies\Animals\Interfaces\IEnemyAnimal.cs" />
+    <Compile Include="Unit\Enemies\Animals\EnemyDog.cs" />
+    <Compile Include="Unit\Enemies\Enemy.cs" />
+    <Compile Include="Unit\Enemies\Monster\EnemyOrc.cs" />
+    <Compile Include="Unit\Combat\Interfaces\ICombatStats.cs" />
+    <Compile Include="Unit\Interfaces\IEnemy.cs" />
+    <Compile Include="Unit\Enemies\Monster\EnemyMonster.cs" />
+    <Compile Include="Unit\Enemies\Monster\EnemyZombie.cs" />
+    <Compile Include="Unit\Enemies\Monster\Interfaces\IEnemyMonster.cs" />
+    <Compile Include="Unit\Interfaces\Combat\IFigthable.cs" />
+    <Compile Include="Coordinates.cs" />
+    <Compile Include="Unit\Interfaces\IArmour.cs" />
+    <Compile Include="Unit\Interfaces\IAttributable.cs" />
+    <Compile Include="Unit\Interfaces\IAttributes.cs" />
+    <Compile Include="Unit\Interfaces\IDescribable.cs" />
+    <Compile Include="Unit\Interfaces\IEffectable.cs" />
+    <Compile Include="Unit\Interfaces\IHealth.cs" />
+    <Compile Include="Unit\Interfaces\ILocation.cs" />
+    <Compile Include="Unit\Interfaces\IRegenrate.cs" />
+    <Compile Include="Unit\Interfaces\IUnit.cs" />
+    <Compile Include="Unit\Interfaces\Movement\IMoves.cs" />
+    <Compile Include="Unit\Player\IPlayer.cs" />
+    <Compile Include="Unit\Player\IPlayerLevel.cs" />
+    <Compile Include="Unit\Player\Player.cs" />
+    <Compile Include="Unit\Profession\AbstractProfession.cs" />
+    <Compile Include="Unit\Profession\Interfaces\IProfession.cs" />
+    <Compile Include="Unit\Profession\Warrior.cs" />
+    <Compile Include="Unit\UnitPostion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Symbol Legend.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="ModelsClassDiagram.cd" />
+    <None Include="OpenTK.dll.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
